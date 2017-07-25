@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
+var logger = require('morgan');
+require('dotenv').config()
 
 const index = require('./routes/index');
 const users = require('./routes/users');
