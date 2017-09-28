@@ -1,1 +1,1 @@
-# express_ejs_template
+# express_template
